@@ -1,0 +1,68 @@
+body {
+margin: 0px;
+}
+
+.logo > img{
+margin-left: 60px;
+}
+header {
+background-image: url("image1.jpg");
+}
+.menu_header {
+margin-left: 0px;
+}
+.menu_header ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+.menu_header li {
+float: left;
+}
+.menu_header li a {
+display: inline-block;
+color: white;
+text-align: center;
+padding: 20px 20px;
+text-decoration: none;
+}
+.menu_header li a:hover {
+color: mediumseagreen;
+}
+.square_menu {
+width: 370px;
+/*background-color: mediumseagreen;*/
+height: 370px;
+margin-left: 50px;
+}
+.square_menu a {
+float: left;
+width: 50%;
+height: 50%;
+display: inline-block;
+}
+.inside_menu_dark {
+vertical-align: top;
+display: inline-block;
+text-align: center;
+background: #088389;
+}
+.inside_menu_dark img {
+background-color: blue;
+margin-top: 25px;
+}
+
+.inside_menu_light {
+vertical-align: top;
+display: inline-block;
+text-align: center;
+background: blue;
+}
+.inside_menu_light img {
+background-color: grey;
+margin-top: 25px;
+}
+.caption {
+display: block;
+}
